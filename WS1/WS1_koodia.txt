@@ -1,0 +1,66 @@
+var arr = [];
+for (var i=0; i<15; i++) {
+arr.push(Math.random()*100);
+
+}
+console.log(arr);
+
+//
+
+
+function addNumbers(a, b) {
+if(a + b > 9000){
+	alert("ITS OVER 9000")
+}else if(a + b > 100){
+	alert("its over 100")
+}
+return a + b;
+ 
+}
+console.log(addNumbers(5, 10)); 
+
+//
+
+var person = {
+firstName:"Meika",
+lastName:"Mandoliino",
+age:50,
+eyeColor:"blue",
+address:"Mandariinikatu 3",
+puh:"358 334989382"
+};
+console.log(person.age); 
+
+//
+
+var person1 = {
+firstName:"Meika",
+lastName:"Mandoliino",
+age:50,
+eyeColor:"blue"
+};
+var person2 = {
+firstName:"Mando",
+lastName:"Meikaliino",
+age:45,
+eyeColor:"blue"
+};
+var person3 = {
+firstName:"Tytti",
+lastName:"Tekija",
+age:30,
+eyeColor:"blue"
+};
+var person4 = {
+firstName:"Toni",
+lastName:"Toveri",
+age:25,
+eyeColor:"blue"
+};
+
+var arr = [person1, person2, person3, person4]; 
+
+for(const p of arr){
+	console.log(p["firstName"]);
+	console.log(p["lastName"]);
+}
