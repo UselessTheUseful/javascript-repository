@@ -1,0 +1,1 @@
+document.write("<cite><strong>If I had nine hours to chop down a tree, I'd spend the first six sharpening my ax.</cite></strong><br>-- Abraham Lincoln")
