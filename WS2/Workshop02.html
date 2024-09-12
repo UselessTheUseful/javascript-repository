@@ -70,9 +70,9 @@
         const is_mozilla = navigator.userAgent.toLowerCase().includes('mozilla');
 
         if (is_mozilla) {
-            window.open("http://www.mozilla.org/");
+            location.href("http://www.mozilla.org/");
         } else {
-            window.open("https://www.w3schools.com/jsref/prop_nav_appcodename.asp");
+            location.href("https://www.w3schools.com/jsref/prop_nav_appcodename.asp");
         }
 
         let student = confirm("Oletko opiskelija?");
