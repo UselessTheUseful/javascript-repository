@@ -62,3 +62,5 @@ function load_storage() {
         session_data_field.innerHTML = storage;
     }
 }
+
+// to-do listassa käytetään localstoragee https://github.com/UselessTheUseful/todo-lista
